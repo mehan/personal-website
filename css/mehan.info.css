@@ -1,0 +1,91 @@
+body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #8ecad3;
+      }
+
+
+      /* Custom container */
+
+      #title {
+      font-size: 100px;
+      color: #0097A5;
+    }
+
+    #title a {
+
+      color: #0097A5;
+    }
+
+      .lead {text-align: left;}
+
+      li {text-align: left;
+        font-size: 19px;
+        font-weight: 200;
+      }
+
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+        min-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+/*        color:white;*/
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      .links p { 
+        text-align: center;
+        font-weight: bold;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+/*        color:white;*/
+
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+
+      }
+
+      .marketing li {
+
+        font-size: 21px;
+        font-weight: 200;
+        line-height: 30px;
+
+      }
+
+      .marketing h4 {
+
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 30px;
+
+      }
+
+
+      a:link {color: #530CE8;
+
+/*        #e23100;*/}
+ 
+      a:visited { color: #530CE8;
+
+ /*       color:#e23100;*/}
