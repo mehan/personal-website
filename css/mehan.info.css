@@ -1,15 +1,23 @@
 body {
-padding-top: 20px;
+padding-top: 0px;
 padding-bottom: 40px;
+padding-top: 0rem;
+padding-bottom: 4.0rem;
 background-color: #8ecad3;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight: 200;
 }
 
 #title {
+font-size: 10px;	
 font-size: 10rem;
 color: #0097A5;
 font-weight: bold;
+padding-top: 0px; 
+padding-bottom: 0px;
+padding-top: 0rem; 
+padding-bottom: 0rem;
+
 }
 
 #title a {
@@ -18,15 +26,21 @@ text-decoration: none;
 }
 
 #links-container {
+font-size: 18px;
 font-size: 1.8rem;
 }
 
-#links-container p {font-size: 2.0rem;}
+#links-container p {
+font-size: 20px;
+font-size: 2.0rem;
+}
 
-.jumbotron {text-align: left;font-size: 1.8rem;}
+.jumbotron {
+text-align: left;
+font-size: 18px;
+font-size: 1.8rem;}
 
 .links p { 
-text-align: ;
 font-weight: bold;
 }
 
@@ -37,6 +51,7 @@ font-weight: bold;
 }
 
 .footer {
+font-size: 13px;
 font-size: 1.3rem;
 }
 

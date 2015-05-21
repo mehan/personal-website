@@ -16,7 +16,7 @@
 <body>
 <div class="container">
 </br>
-<p id="title"><a href="index.html">mehan.info</a></p>
+<div data-fitter-happier-text id="title"><a href="index.html">mehan.info</a></div>
 
 <div class="jumbotron">
 
@@ -50,3 +50,8 @@
 </div> <!-- /container -->
 </body>
 </html>
+<script src="./js/fitter-happier-text.js" type="text/javascript"></script>
+<script type="text/javascript">
+var nodes = document.querySelectorAll('[data-fitter-happier-text]');
+fitterHappierText(nodes, { baseline: 10, paddingY: 0 });
+</script>
