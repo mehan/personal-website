@@ -91,6 +91,9 @@
 </html>
 <script src="./js/fitter-happier-text.js" type="text/javascript"></script>
 <script type="text/javascript">
+var FIREFOX = /Firefox/i.test(navigator.userAgent);
 var nodes = document.querySelectorAll('[data-fitter-happier-text]');
+if (FIREFOX == false) {
 fitterHappierText(nodes, { baseline: 10, paddingY: 0 });
+}
 </script>
