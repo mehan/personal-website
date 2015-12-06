@@ -55,5 +55,8 @@ font-size: 13px;
 font-size: 1.3rem;
 }
 
-a:link {color: #530CE8;}
-a:visited { color: #530CE8;}
+a:link {color: #530CE8;
+transition-duration: .75s;
+}
+a:visited {color: #530CE8;}
+a:hover {color: #F012BE;}
