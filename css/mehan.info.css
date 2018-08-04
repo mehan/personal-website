@@ -54,11 +54,16 @@ font-size: 13px;
 font-size: 1.3rem;
 }
 
-a:link {color: #530CE8;
+a {color: #530CE8;
 transition-duration: .75s;
 }
 a:visited {color: #530CE8;}
 a:hover {color: #F012BE;}
+
+a.more {color: #270722;
+}
+a.more:visited {color: #270722;}
+a.more:hover {color: #F012BE;}
 
 @media (min-width: 1750px){
   #title {
